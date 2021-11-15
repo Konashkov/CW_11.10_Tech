@@ -1,0 +1,23 @@
+.title{
+    color: grey;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10%;
+    margin: auto;
+    background-color: rgb(10, 159, 209);
+}
+.title::before{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10%;
+    margin: auto;
+    background-color: rgb(129, 163, 128);
+
+}
